@@ -1,5 +1,7 @@
 # GeoDoctor
 
+GeoDoctor is a service to receive geospatial datafiles of various kinds, extract shapes, repair and simplify those shapes.
+The service responds with a valid geojson object that can be consumed by other Skydipper services such as Geostore.
 
 ## Running locally
 
