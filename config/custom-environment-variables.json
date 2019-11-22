@@ -1,0 +1,9 @@
+{
+    "apiGateway":{
+        "uri": "API_GATEWAY_URI"
+    },
+    "service": {
+        "port": "PORT",
+        "uri": "URI"
+    }
+}

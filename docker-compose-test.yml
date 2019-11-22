@@ -1,0 +1,13 @@
+test:
+  extends:
+    file: base.yml
+    service: base
+  ports:
+    - "3200"
+  container_name: GeoDoctor-test
+  environment:
+    NODE_ENV: test
+    PORT: 3200
+    USER: root
+    NODE_PATH: app/src
+  command: test

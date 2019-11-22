@@ -1,0 +1,8 @@
+{
+    "logger": {
+        "name": "GeoDoctor",
+        "level": "debug",
+        "toFile": false,
+        "dirLogFile": null
+    }
+}

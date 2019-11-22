@@ -1,0 +1,12 @@
+{
+    "logger": {
+        "name": "GeoDoctor-STAGING",
+        "level": "info",
+        "toFile": false,
+        "dirLogFile": null
+    },
+    "service": {
+        "uri": "http://GeoDoctor-staging.herokuapp.com",
+        "port": null
+    }
+}

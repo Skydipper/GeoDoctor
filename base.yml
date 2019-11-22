@@ -1,0 +1,9 @@
+base:
+  build: .
+  ports:
+    - "3200:3200"
+  environment:
+    PORT: 3200
+    NODE_ENV: prod
+    NODE_PATH: app/src
+  container_name: GeoDoctor

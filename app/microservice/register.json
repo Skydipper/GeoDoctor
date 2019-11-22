@@ -1,0 +1,13 @@
+{
+    "id": "#(service.id)",
+    "name": "#(service.name)",
+    "tags": ["GeoDoctor"],
+    "urls": [{
+        "url": "/v1/geodoctor/convert",
+        "method": "POST",
+        "endpoints": [{
+            "method": "POST",
+            "path": "/api/v1/geodoctor/convert"
+            }]
+        }]
+}
